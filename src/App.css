@@ -1,0 +1,72 @@
+.bg-dark{
+    background-color: black !important;
+    color: #fff !important;
+}
+.bg-dark a{
+    color: #fff !important;
+}
+.hambarger{
+    background-color: #fff !important;
+}
+
+.info{
+    background-color: gray;
+    color: #fff !important;
+    display: inline-block;
+    margin: 5px;
+    padding: 2px 8px;
+}
+
+.module-wr{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin a ,.student a,.teacher a    {
+    background: rebeccapurple;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0px 25px;
+}
+
+.login-form{
+    width: 400px;
+    margin:60px auto;
+}
+.panel{
+    display: flex;
+}
+.sidebar-panel{
+    flex-basis: 20%;
+}
+.admin-sidebar , .teacher-sidebar , .student-sidebar{
+    padding: 20px;
+    height: 500px;  
+    background-color: black;
+}
+.admin-sidebar ul , .teacher-sidebar ul, .student-sidebar ul{
+    list-style-type: none;
+}
+.admin-sidebar ul li, .teacher-sidebar ul li, .student-sidebar ul li{
+    padding: 6px 20px;
+}
+.admin-sidebar ul li a, .teacher-sidebar ul li a, .student-sidebar ul li a{
+    color: #fff;
+    text-decoration: none !important;
+}
+.teacher-sidebar{
+    background-color: rgb(78, 1, 1);
+}
+.student-sidebar{  
+    background-color: rgb(40, 0, 134);
+}
+.content{
+    flex-basis: 80%;
+}
